@@ -4,6 +4,10 @@
     {
         int age = 0;
         string name = "John";
-        bool isActive = true;
+        DateTime birthDate = new DateTime(1990, 1, 1);
+        public Class()
+        {
+          
+        }
     }
 }
