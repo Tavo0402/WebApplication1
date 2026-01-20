@@ -9,5 +9,14 @@
         {
           
         }
+
+
+
+        public void Deconstruct(out int age, out string name, out DateTime birthDate)
+        {
+            age = this.age;
+            name = this.name;
+            birthDate = this.birthDate;
+        }
     }
 }
