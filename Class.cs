@@ -6,6 +6,7 @@
         string name = "John";
         DateTime birthDate = new DateTime(1990, 1, 1);
         public Class()
+
         {
           
         }
