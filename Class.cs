@@ -12,9 +12,12 @@
         }
 
 
-        int GetAge()
+
+        public void Deconstruct(out int age, out string name, out DateTime birthDate)
         {
-            return age;
+            age = this.age;
+            name = this.name;
+            birthDate = this.birthDate;
         }
     }
 }
